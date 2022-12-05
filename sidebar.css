@@ -1,12 +1,14 @@
 .sidenav {
-    width: 130px;
-    position: fixed;
+    width: 150px;
+    position: -webkit-sticky;
+  position: sticky;
     z-index: 1;
-    top: 20px;
-    left: 10px;
-    background: #eee;
+    left: 0px;
+    top: 0;
+    padding-top: 0px;;
+    /* background: #eee; */
     overflow-x: hidden;
-    padding: 8px 0;
+    padding: 5px 0;
     height: 100%;
   }
   .sidenav a {
@@ -28,6 +30,6 @@
     color: limegreen;
     margin-right: 0.25em;
   }
-  body{
+  /* body{
     margin-bottom: 500px;
-  }
+  } */

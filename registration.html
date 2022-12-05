@@ -12,6 +12,8 @@
       body{
         margin-left:200px;
         margin-right:200px;
+        display:flex;
+        flex-direction: column;
       }
       label{
         display: block;
@@ -29,16 +31,19 @@
           justify-content: center;
       }
       .registrationimage {
+        display: flex;
+        flex-direction: column;
         float:right;
         width:70%;
         height: 500px;
         background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRglCqDc6iX8170v5q8GvdUDNgRCkXIkdF5dw&usqp=CAU);
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: fixed; 
         background-size: 100% 100%; 
       }
-      .registrationimage img{
-        margin-left:10%;
+      .imageof{
+        width: 15px;
+        align-items: center;
       }
 
     </style>
@@ -85,7 +90,10 @@
       </div>
       <div class="registrationimage">
         <h1>First time here?</h1>
-        <img src="https://ugc.futurelearn.com/uploads/images/03/d4/hero_03d40e20-30e1-4a97-9b5f-31c8b64bc827.png" alt="logo">
+        <div class="imageof">
+          <img src="assets/logo.png" alt="logo" style="width:70%">
+        </div>
+        
       </div>
     </main>
   </body>
