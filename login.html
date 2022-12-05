@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Log in</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="https://codeforces.org/s/0/android-icon-192x192.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://codeforces.org/s/0/android-icon-192x192.png" type="image/x-icon">
+    <script type="module" src="script.js"></script>
+
+    <style>
+      body{
+        margin-left:200px;
+        margin-right:200px;
+      }
+      fieldset{
+        margin: 10px;
+      }
+      label{
+        display: block;
+      }
+      .login{
+        float:left;
+        width:30%
+      }
+      .registrationimage h1{
+        padding-top:5%;
+          text-align: center;
+          justify-content: center;
+      }
+      .registrationimage {
+        float:right;
+        width:70%;
+        height: 300px;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRglCqDc6iX8170v5q8GvdUDNgRCkXIkdF5dw&usqp=CAU);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%; 
+      }
+      .registrationimage img{
+        margin-left:25%;
+        width:50%
+      }
+    </style>
+  </head>
+  <body>
+    <a href="main.html"><img src="https://ugc.futurelearn.com/uploads/images/03/d4/hero_03d40e20-30e1-4a97-9b5f-31c8b64bc827.png" alt="logo" style="height:65px"></a>
+    <nav>
+      <a href="registration.html">Registration</a>
+      <a href="login.html" aria-current="page">Log in</a>
+    </nav>
+    <main>
+      <div class="login">
+        <form action="main.html" >
+          <fieldset style="border: 2px solid green">
+            <legend>Your datas</legend>
+            <label for="email"><input type="email" id="email" name="email" placeholder="enter your email" required></label>
+            <label for="password"><input type="password" id="password" name="password" placeholder="enter your password" required></label>
+          </fieldset>
+          <button>log in</button>
+        </form>
+      </div>
+      <div class="registrationimage">
+        <h1>Log in to</h1>
+        <img src="https://ugc.futurelearn.com/uploads/images/03/d4/hero_03d40e20-30e1-4a97-9b5f-31c8b64bc827.png" alt="logo">
+      </div>
+    </main>
+  </body>
+</html>
