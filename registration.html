@@ -12,18 +12,28 @@
       body{
         margin-left:200px;
         margin-right:200px;
-        display:flex;
+        /* display:flex; */
         flex-direction: column;
       }
       label{
         display: block;
       }
+      @media (min-width:1000px){
+        <div class="registrationimage">
+          <h1>First time here?</h1>
+          <div class="imageof">
+            <img src="assets/logo.png" alt="logo" style="width:70%">
+          </div>
+        
+        </div>
+      } 
       .rego {
         border: 2px solid green;
       }
       .registration{
         float:left;
         width:30%
+        display: flex;
       }
       .registrationimage h1{
         padding-top:5%;
@@ -88,13 +98,9 @@
           <button>registration</button>
         </form>
       </div>
-      <div class="registrationimage">
-        <h1>First time here?</h1>
-        <div class="imageof">
-          <img src="assets/logo.png" alt="logo" style="width:70%">
-        </div>
+      
+         
         
-      </div>
     </main>
   </body>
 </html>

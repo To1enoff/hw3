@@ -42,10 +42,10 @@
     }
     caption {
         padding: 10px;
-        /* caption-side: bottom; */
+        caption-side: bottom; 
     }
     table {
-        border-collapse: collapse;
+         border-collapse: collapse; 
         border: 2px solid rgb(200, 200, 200);
         letter-spacing: 1px;
         font-family: sans-serif; 
@@ -54,13 +54,21 @@
     dt{
       font-weight: bold;
 
-    }  
+    } 
     .reglog{
       float: right;
       margin-top: 55px
       
     }
-    
+    .taskname{
+      dif
+    }
+    tr{
+      display: flex;
+    }
+    .number{
+      background-color: black;
+    }
   </style>
 </head>
 <body>
@@ -81,7 +89,18 @@
     </div>
 
     <div class="page">
-        
+        <table>
+          <tr>
+            <th scope="col" class="number">№</th>
+            <th scope="col" class="taskname">task name</th>
+            <th scope="col" class="complexity">complexity</th>
+            <th scope="col" class="accepted">accepted</th>
+          </tr>
+          </div>
+          <tr>
+            <th scope="row"> </th>
+          </tr>
+        </table>
     </div>
   </div>
   <div class="foot">
